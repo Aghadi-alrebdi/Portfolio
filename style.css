@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 85%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #eaeaf5;
+  color: #000000;
+  padding: 10px 0;
+  text-align: left;
+
+}
+
+.intro {
+  font-size: 15px;    
+  font-weight: normal;  
+  color: #474242;          
+}
+
+.subtitle {
+  font-size: 15px;
+  font-weight: normal;
+  color: #474242;
+  text-align: left;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+  gap: 30px;
+}
+
+.header-text {
+  flex: 1;
+  text-align: left;
+  min-width: 280px;
+}
+
+.header-image {
+  flex: 1;
+  text-align: center;
+}
+
+.header-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#---------------------------------------------------------------------
+section {
+  padding: 50px 0;
+}
+
+h2 {
+   font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#---------------------------------------------------------------------
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.container h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.section-divider {
+  display: block;
+  height: 2px;
+  width: 60px;
+  background-color: #113db8;
+  margin: 30px auto 60px auto;
+}
+
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+.skill-box {
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.skill-box:hover {
+  background-color: #052477;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+
+#---------------------------------------------------------------------
+
+
+
+.projects-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px 40px 40px; 
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.projects-container h2 {
+  margin-left: 140px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+.project-card {
+  display: flex;           
+  flex-direction: row;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  height: 180px; 
+  margin-left: 60px;
+  margin-right: 60px; 
+}
+
+.project-card img {
+  width: 220px;
+  height: 100%;
+  object-fit: cover;
+  border-right: 1px solid #ddd;
+}
+
+.project-info {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.project-info h3 {
+  margin: 0 0 12px 0;
+  font-size: 22px;
+}
+
+.project-info p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #444;
+}
+
+#---------------------------------------------------------------------
+
+ .contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.contact-container h2 {
+  margin-left: 580px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.email-button {
+  margin-left: 590px;
+  display: inline-block;
+  background-color: #113db8;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.email-button:hover {
+  background-color: #052477;
+}
+
+#---------------------------------------------------------------------
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  padding: 20px 0;
+  margin-top: 40px;
+}
