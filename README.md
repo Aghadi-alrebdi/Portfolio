@@ -50,14 +50,6 @@ Easy communication options by clicking the "Contact me" button
 
 ---
 
-## Created By  
-**Student Name**: Aghadi Saleh Al-rebdi  
-**University**: Qassim University  
-**Department**: Computer Science  
-**Year**: 2025  
-
----
-
 ## Code Snippet (Email Button)
 Below is the code for the email button that opens the user's email client with prefilled subject and body:
 
@@ -71,3 +63,10 @@ Below is the code for the email button that opens the user's email client with p
 Below is a screenshot of the final website in a live server:
 
 ![Website Screenshot](Website.png))
+
+---
+
+## Created By  
+- **Name**: Aghadi Saleh Al-rebdi   
+- **Department**: Computer Science  
+- **Year**: 2025  
